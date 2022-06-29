@@ -28,7 +28,7 @@ A simple fullscreen map application as an example on how to use MapTiler maps to
 
 5. Start your local environment
   ```sh
-    npm start
+    npm run serve
   ```
 
 6. You will find your app on address http://localhost:8080/. Now you should see the map in your browser.
