@@ -1,26 +1,43 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <mgl-map 
+    mapStyle="https://api.maptiler.com/maps/basic/style.json?key=YOUR_MAPTILER_API_KEY_HERE"
+    :zoom=14
+    :center="[16.62662018, 49.2125578]"
+  >
+    <mgl-navigation-control position="top-left"/>
+  </mgl-map>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { MglMap, MglNavigationControl } from 'vue-maplibre-gl'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MglMap,
+    MglNavigationControl
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<style lang="scss">
+@import "~vue-maplibre-gl/src/css/maplibre.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
 }
 </style>
