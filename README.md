@@ -1,15 +1,13 @@
-# Quickstart with Vue.js and MapLibre GL JS
+# Get started with Vue.js and MapLibre GL JS
 
 Quick way to star a web map application with MapLibre GL JS using Vue.js.
 
 A simple fullscreen map application as an example on how to use MapTiler maps together with Vue.js and MapLibre GL JS for your own Vue.js app.
 
-## Getting Started
-
 1. Clone this repo 
  
   ```sh
-    git clone https://github.com/maptiler/quickstart-vuejs-maplibre-gl-js.git my-vuejs-map
+    git clone https://github.com/maptiler/get-started-vuejs-maplibre-gl-js.git my-vuejs-map
   ```
 
 2. Navigate to the newly created project folder **my-vuejs-map**
