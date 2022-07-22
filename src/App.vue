@@ -1,6 +1,6 @@
 <template>
   <mgl-map 
-    mapStyle="https://api.maptiler.com/maps/basic/style.json?key=YOUR_MAPTILER_API_KEY_HERE"
+    mapStyle="https://api.maptiler.com/maps/streets/style.json?key=YOUR_MAPTILER_API_KEY_HERE"
     :zoom=14
     :center="[16.62662018, 49.2125578]"
   >
