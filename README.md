@@ -42,4 +42,4 @@ This project was generated with [Vue.js CLI](https://cli.vuejs.org/).
 
 ## Learn More
 
-You can learn more at [How to display a map in Vue.js using MapLibre GL JS](https://documentation.maptiler.com/hc/en-us/articles/4413873409809-How-to-display-a-map-in-Vue-js-using-MapLibre-GL-JS).
+You can learn more at [How to display a map in Vue.js using MapLibre GL JS](https://docs.maptiler.com/vuejs/maplibre-gl-js/how-to-use-maplibre-gl-js/).
